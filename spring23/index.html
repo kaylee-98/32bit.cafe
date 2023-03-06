@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<title>32-bit cafe spring 2023 event</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+background: url(spring-bg.gif);
+background-repeat: repeat;
+}
+@media screen and (max-width: 600px) {
+ .main {
+width: 90vw;
+}
+.form {
+width: 45vw;
+}
+input, textarea {
+width: 40vw;
+}
+}
+@media screen and (min-width: 600px) {
+ .main {
+width: 50vw;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}
+.form {
+width: 18vw;
+}
+input, textarea {
+width: 15vw;
+}
+}
+.main {
+background-color: #FFF;
+padding: 20px;
+font-family: Verdana, sans serif;
+}
+.main strong {
+color: #73956F;
+}
+.main p, li {
+font-size: 11pt;
+}
+.main h1 {
+color: #410647;
+text-align: center;
+}
+.main h1:hover {
+color: #AF1B3F;
+cursor: default;
+}
+.main ul {
+list-style: none;
+}
+.field {
+font-family: Verdana, sans serif;
+font-size: 10pt;
+font-weight: bold;
+color: #410647;
+line-height: 16pt;
+}
+.field label {
+color: #FFF;
+background-color: #AF1B3F;
+padding: 2px 5px;
+line-height: 20pt;
+}
+.field sup {
+opacity: 0.5;
+}
+input, textarea {
+background-color: #D7C0D0;
+border: 1px solid #410647;
+color: #410647;
+font-family: Verdana, sans serif;
+font-size: 8pt;
+letter-spacing: 0.5pt;
+line-height: 10pt;
+outline: none;
+}
+.form {
+margin: 0 auto;
+text-align: center;
+}
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #d7c0d0 #ffffff;
+  }
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #d7c0d0;
+    border-radius: 0px;
+    border: 0px none #ffffff;
+  }
+</style>
+</head>
+<body>
+<div class="main">
+<h1>🌸 32-bit cafe spring '23 event 🌸</h1>
+<p>as community members on the yesterweb discord, we often would have community events where folks would create similar pages around a theme, season, or holiday. now that we have splintered off into various communities, the 32-bit cafe is organizing its own events.</p>
+<p>submissions can include: a seasonal adoptable that folks can grab from your site, a recipe page with your favorite spring recipes (spring-themed cake, anyone?), a page showcasing your favorite ways to celebrate the spring solstice on march 20, or showing off your favorite trees and flowers! for our friends in the southern hemisphere, what about showing your favorite autumn activities or ways that you celebrate autumn in your part of the world?</p>
+
+<p>some things to keep in mind:</p>
+<ul>
+<li>🍃 consider the theme <strong>spring forward</strong> in whatever that means to you</li>
+<li>🍃  feel free to express yourself & be as creative as you'd like!</li>
+<li>🍃  submission deadline is <strong>march 21, 2023</strong></li>
+</ul>
+
+<p>all submissions will be linked on this page after the deadline. feel free to link back to this page as the form will be gone after the deadline.</p>
+
+<div class="form">
+<form action="https://riku.miso.town/submit?user_id=6&label=32bitcafe-spring" method="post">
+  <div class="field">
+    <label for="name">site owner's name</label><br>
+    <input type="text" name="name" id="name" required>
+  </div>
+
+  <div class="field">
+    <label for="URL">webpage URL</label><br>
+    <input type="text" name="URL" id="URL" required><br>
+    <sup>please double-check that your URL is working!</sup>
+  </div>
+
+  <div class="field">
+    <label for="description">description of submission</label><br>
+    <textarea name="description" id="description"></textarea>
+  </div>
+<br>
+
+  <input type="submit" value="submit">
+  <input type="hidden" name="redirect" value="https://32bit.cafe/spring23/sent.html">
+
+</form>
+</body>
+</html>
